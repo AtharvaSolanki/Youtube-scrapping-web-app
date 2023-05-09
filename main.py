@@ -10,7 +10,7 @@ import scrapetube
 def flask(video):
     #video=str(input('Enter Video URL '))
     #video=simpledialog.askstring('Video',"Enter Video Url\t\t\t\t",parent=input_ui)
-    x=YouTube(video,use_oauth=True, allow_oauth_cache=True)
+    x=YouTube(video)
     channelId=x.channel_id
     curl=x.channel_url
     c=Channel(curl)
