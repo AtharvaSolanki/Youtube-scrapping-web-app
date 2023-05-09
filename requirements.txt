@@ -1,0 +1,6 @@
+pip install pytube
+pip install tqdm
+pip install pandas
+pip install bs4
+pip install scrapetube
+pip install flask
