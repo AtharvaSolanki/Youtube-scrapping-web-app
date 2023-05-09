@@ -123,7 +123,7 @@ def flask(video):
     for i in new_list:
         video=i
         #video=simpledialog.askstring('Video',"Enter Video Url\t\t\t\t",parent=input_ui)
-        x=YouTube(video,use_oauth=True, allow_oauth_cache=True)
+        x=YouTube(video)
         titl.append(x.title)
 
 
